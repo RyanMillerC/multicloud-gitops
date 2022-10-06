@@ -69,10 +69,10 @@ clusterGroup:
 
   managedClusterGroups:
     exampleRegion:
-      name: region-one
+      name: dev
       labels:
       - name: clusterGroup
-        value: region-one
+        value: dev
       helmOverrides:
       - name: clusterGroup.isHubCluster
         value: false
